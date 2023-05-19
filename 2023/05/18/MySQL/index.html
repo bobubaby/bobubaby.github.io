@@ -179,7 +179,7 @@ window.addEventListener('load',()=> { preloader.endLoading() })
 if (true) {
   document.addEventListener('pjax:send', () => { preloader.initLoading() })
   document.addEventListener('pjax:complete', () => { preloader.endLoading() })
-}</script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://s2.loli.net/2023/05/13/yOzXTxurLiqmc5w.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 档案室</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 便利贴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 喜欢的歌曲</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 推荐的视频</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 交友圈</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s2.loli.net/2023/05/14/CG2g6DI4M3KaE15.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="昨夜太平長安"><img class="site-icon" src="https://s2.loli.net/2023/05/13/yOzXTxurLiqmc5w.png"/><span class="site-name">昨夜太平長安</span></a></span><div id="weather"><div id="tp-weather-widget"></div>  </div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 档案室</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 便利贴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 喜欢的歌曲</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 推荐的视频</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 交友圈</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">MySQL编程题</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-05-18T13:35:22.000Z" title="发表于 2023-05-18 21:35:22">2023-05-18</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-05-18T13:35:22.000Z" title="更新于 2023-05-18 21:35:22">2023-05-18</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>5分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="MySQL编程题"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><strong>题目：现在运营想要查看用户信息表中所有的数据，请你取出相应结果</strong></p>
+}</script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://s2.loli.net/2023/05/13/yOzXTxurLiqmc5w.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 档案室</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 便利贴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 喜欢的歌曲</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 推荐的视频</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 交友圈</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s2.loli.net/2023/05/14/CG2g6DI4M3KaE15.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="昨夜太平長安"><img class="site-icon" src="https://s2.loli.net/2023/05/13/yOzXTxurLiqmc5w.png"/><span class="site-name">昨夜太平長安</span></a></span><div id="weather"><div id="tp-weather-widget"></div>  </div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 档案室</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 便利贴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 喜欢的歌曲</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 推荐的视频</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 交友圈</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">MySQL编程题</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-05-18T13:35:22.000Z" title="发表于 2023-05-18 21:35:22">2023-05-18</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-05-18T13:35:22.000Z" title="更新于 2023-05-18 21:35:22">2023-05-18</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.3k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>4分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="MySQL编程题"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><strong>题目：现在运营想要查看用户信息表中所有的数据，请你取出相应结果</strong></p>
 <p>示例：user_profile  </p>
 <table>
 <thead>
@@ -484,7 +484,86 @@ if (true) {
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">select DISTINCT university</span><br><span class="line">from user_profile</span><br></pre></td></tr></table></figure>
 
 <p>方法二：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">select university</span><br><span class="line">from user_profile group by university</span><br><span class="line">```     </span><br><span class="line"></span><br><span class="line">**distinct和group by区别**   </span><br><span class="line">**distinct**  </span><br><span class="line">distinct只能放在查询字段的最前面，不能放在查询字段的中间或者后面。distinct 对后面所有的字段均起作用，即 去重是查询的所有字段完全重复的数据，而不是只对 distinct 后面连接的单个字段重复的数据。要查询多个字段，但只针对一个字段去重，使用distinct去重的话是无法实现的。   </span><br><span class="line">**distinct含义与使用方法**    </span><br><span class="line">distinct用来查询不重复记录的条数,即用distinct来返回不重复字段的条数（count(distinct id)）,其原因是distinct只能返回他的目标字段，而无法返回其他字段。  </span><br><span class="line">**注:** distinct [查询字段]，必须放在要查询字段的开头，即放在第一个参数；  </span><br><span class="line">只能在SELECT 语句中使用，不能在 INSERT, DELETE, UPDATE 中使用；  </span><br><span class="line">DISTINCT 表示对后面的所有参数的拼接取 不重复的记录，即查出的参数拼接每行记录都是唯一的不能与all同时使用，默认情况下，查询时返回的就是所有的结果。  </span><br><span class="line">**group by**  </span><br><span class="line">一般与聚类函数使用（如count()/sum()等），也可单独使用。group by 也对后面所有的字段均起作用，即 去重是查询的所有字段完全重复的数据，而不是只对 group by后面连接的单个字段重复的数据。查询的字段与group by 后面分组的字段没有限制。（在oracle中使用group by时，查询的字段必须是group by 分组的字段和聚类函数。如select name,sex from tb_students group by name这个sql）  </span><br><span class="line">对于group by详情点击 ![这里](https://blog.csdn.net/u014717572/article/details/80687042?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168442096116800184110332%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=168442096116800184110332&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-80687042-null-null.142^v87^control_2,239^v2^insert_chatgpt&amp;utm_term=group%20by%E7%94%A8%E6%B3%95&amp;spm=1018.2226.3001.4187)。  </span><br><span class="line">*********</span><br><span class="line">题目：现在运营只需要查看前2个用户明细设备ID数据，请你从用户信息表 user_profile 中取出相应结果。  </span><br><span class="line">示例：  </span><br><span class="line">id|	device_id|	gender|	age|	university|	province  </span><br><span class="line">-|-|-|-|-|-|  </span><br><span class="line">1|	2138|	male|	21|	北京大学|	Beijing  </span><br><span class="line">2|	3214|	male|	  |         |          </span><br><span class="line">| |      |       |     | 复旦大学|	Shanghai  </span><br><span class="line">3|	6543|	female|	20|	北京大学|	Beijing  </span><br><span class="line">4|	2315|	female|	23|	浙江大学|	ZheJiang  </span><br><span class="line">5|	5432|	male|	25|	山东大学|	Shandong  </span><br><span class="line"></span><br><span class="line">根据输入，你的查询应返回以下结果： </span><br><span class="line">device_id|  </span><br><span class="line">-|  </span><br><span class="line">2138|  </span><br><span class="line">3214|    </span><br><span class="line"></span><br><span class="line">方法一：   </span><br><span class="line">```MySql</span><br><span class="line">select user_profile.device_id</span><br><span class="line">from user_profile</span><br><span class="line">where id&lt;=2</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">select university</span><br><span class="line">from user_profile group by university</span><br></pre></td></tr></table></figure>
+<p><strong>distinct和group by区别</strong><br><strong>distinct</strong><br>distinct只能放在查询字段的最前面，不能放在查询字段的中间或者后面。distinct 对后面所有的字段均起作用，即 去重是查询的所有字段完全重复的数据，而不是只对 distinct 后面连接的单个字段重复的数据。要查询多个字段，但只针对一个字段去重，使用distinct去重的话是无法实现的。<br><strong>distinct含义与使用方法</strong><br>distinct用来查询不重复记录的条数,即用distinct来返回不重复字段的条数（count(distinct id)）,其原因是distinct只能返回他的目标字段，而无法返回其他字段。<br><strong>注:</strong> distinct [查询字段]，必须放在要查询字段的开头，即放在第一个参数；<br>只能在SELECT 语句中使用，不能在 INSERT, DELETE, UPDATE 中使用；<br>DISTINCT 表示对后面的所有参数的拼接取 不重复的记录，即查出的参数拼接每行记录都是唯一的不能与all同时使用，默认情况下，查询时返回的就是所有的结果。<br><strong>group by</strong><br>一般与聚类函数使用（如count()&#x2F;sum()等），也可单独使用。group by 也对后面所有的字段均起作用，即 去重是查询的所有字段完全重复的数据，而不是只对 group by后面连接的单个字段重复的数据。查询的字段与group by 后面分组的字段没有限制。（在oracle中使用group by时，查询的字段必须是group by 分组的字段和聚类函数。如select name,sex from tb_students group by name这个sql）<br>对于group by详情点击 <img src="https://blog.csdn.net/u014717572/article/details/80687042?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168442096116800184110332%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=168442096116800184110332&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-80687042-null-null.142%5Ev87%5Econtrol_2,239%5Ev2%5Einsert_chatgpt&utm_term=group%20by%E7%94%A8%E6%B3%95&spm=1018.2226.3001.4187" alt="这里">。  </p>
+<hr>
+<p>题目：现在运营只需要查看前2个用户明细设备ID数据，请你从用户信息表 user_profile 中取出相应结果。<br>示例：  </p>
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>device_id</th>
+<th>gender</th>
+<th>age</th>
+<th>university</th>
+<th>province</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>2138</td>
+<td>male</td>
+<td>21</td>
+<td>北京大学</td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3214</td>
+<td>male</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>复旦大学</td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td>3</td>
+<td>6543</td>
+<td>female</td>
+<td>20</td>
+<td>北京大学</td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td>4</td>
+<td>2315</td>
+<td>female</td>
+<td>23</td>
+<td>浙江大学</td>
+<td>ZheJiang</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5432</td>
+<td>male</td>
+<td>25</td>
+<td>山东大学</td>
+<td>Shandong</td>
+</tr>
+</tbody></table>
+<p>根据输入，你的查询应返回以下结果： </p>
+<table>
+<thead>
+<tr>
+<th>device_id</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2138</td>
+</tr>
+<tr>
+<td>3214</td>
+</tr>
+</tbody></table>
+<p>方法一：   </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">select user_profile.device_id</span><br><span class="line">from user_profile</span><br><span class="line">where id&lt;=2</span><br></pre></td></tr></table></figure>
 <p>方法二：      </p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">select user_profile.device_id</span><br><span class="line">from user_profile</span><br><span class="line">where id in (1,2)</span><br></pre></td></tr></table></figure>
 
